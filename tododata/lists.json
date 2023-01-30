@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "title": "Complete Assignment 5 of UIUX",
+      "description": "Submission of group project",
+      "duedate": "17 october 2022",
+      "duetime": "6:00PM",
+      "status": "closed"
+    },
+    {
+      "id": 2,
+      "title": "Go to OGS office",
+      "description": "Check on Employement letter",
+      "duedate": "22 october 2022",
+      "duetime": "2:00PM",
+      "status": "closed"
+    },
+    {
+      "id": 3,
+      "title": "Meet Academic Advisor",
+      "description": "Discuss about Co-op applications",
+      "duedate": "22 September 2022",
+      "duetime": "12:00PM",
+      "status": "closed"
+    },
+    {
+      "id": 4,
+      "title": "Web Dev Mid Sem Presentation",
+      "description": "On any given topic",
+      "duedate": "20 November 2022",
+      "duetime": "10:00AM",
+      "status": "closed"
+    }
+  ]
+  

@@ -1,0 +1,22 @@
+{
+  "name": "assignment-6-anjkakade",
+  "version": "1.0.0",
+  "description": "- Name : Anjali kakade - NUID : 002923023 - Course : INFO6150 Web Design/User Experience Engineering",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-fall-2022/assignment-6-Anjkakade.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-fall-2022/assignment-6-Anjkakade/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-fall-2022/assignment-6-Anjkakade#readme",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}

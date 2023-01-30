@@ -1,0 +1,29 @@
+body {
+  
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, #f8b195, #56687b);
+}
+// styling for description fields to add to do item
+input,button {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  padding: 1em;
+  margin: 0.25em;
+  background-color: white;
+  color: #f06a22;
+}
+// styling for add button
+button{
+  border-radius: 2em;
+  margin: 1em 5em 1em 5em;
+  padding-left: 4em;
+  padding-right: 4em;
+  background-color: black;
+  font-size: 20px;
+}

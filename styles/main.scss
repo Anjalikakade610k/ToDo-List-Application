@@ -1,0 +1,92 @@
+@import "./layout.scss";
+// styling for complete body
+body > h1 {
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.open {
+  p,
+  h5 {
+    display: block;
+  }
+}
+.closed {
+  p,
+  h5 {
+    display: none;
+  }
+}
+// styling for list
+li {
+  background-color: lightgrey;
+  padding: 1em 2em 1em 2em;
+  margin: 1em 2em 1em 2em; 
+  color: #c64225;
+  box-shadow: black 6px 6px 20px;
+  border-radius: 1em;
+  &:hover {
+    animation-duration: 0.5s;
+    animation-name: slidein;
+// animation styling for todo items
+    @keyframes slidein {
+      from {
+        background-color:whitesmoke;
+      }
+
+      to {
+        background-color:lightgrey;
+      }
+    }
+  }
+  // styling for div-details
+  > .details-div {
+    > .details-div-due {
+      display: flex;
+    }
+  }
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+// class input-section styling
+
+div.input-section {
+  background-color: black;
+  padding: 1em;
+  border-radius: 1em;
+  margin: 0.5em;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10em;
+  margin-right: 10em;
+  .due {
+    display: flex;
+    justify-items: stretch;
+    flex-direction: column;
+  }
+  button {
+    padding: 1em 3em 1em 3em;
+  }
+}
+
+//  class input-section styling for status as open or closed
+// close
+div.input-section[status="closed"] {
+  display: none;
+}
+// open
+div.input-section[status="open"] {
+  display: block;
+}
+body > h1 {
+  justify-content: space-around;
+  display: flex;
+  background-color: lightgray;
+  color: #f06a22;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  padding: 1em;
+}
