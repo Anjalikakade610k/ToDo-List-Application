@@ -4,24 +4,31 @@
 - NUID : 002923023
 - Course : INFO6150 Web Design/User Experience Engineering
 
-#### User Requirements:
+TodotasksApp
+Simple Todo angular application using the REST APIs.
 
-1. As a user, I should be able to see all to-do items fetched using an XHR call from a JSON file.
-2. As a user, I should be able to click a to-do item and able to see its detailed view.
-3. As a user, I should be able to open add a new to-do item view by clicking the add button and this need not be persisted.
-4. As a user, I should be able to add a to-do item by entering the title, description, due date, and time.
-5. As a user, I should be able to mark a to-do item as complete.
+User Requirements:
+As a user, I should be able to see all todo items fetched using a REST API.
+As a user, I should be able to click a todo item and able to see its detailed view.
+As a user, I should be able to open add a new todo item view by clicking the add button.
+As a user, I should be able to add a todo item by entering the title, description, due date and time.
+As a user, I should be able to mark a todo item as complete.
+This project was generated with Angular CLI version 8.3.19.
 
-#### Technical Requirements:
-1. The goal of this assignment is to learn about JavaScript
-2. Should use SCSS for styles.
-3. Should document your code extensively.
-4. Should have .gitignore, ReadMe.md files.
-5. ReadMe.md file should have the project description and the instructions to run the project.
-6. No JavaScript & CSS libraries should be used for this assignment.
-7. You do not need to save the changes made on UI to JSON file.
+Development server
+Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
-#### Instructions:
-1. clone the repository using "git clone url"
-2. run npm script "npm run sass" to generate the css file from the sass file.
-3. If u want to add more todo list items to the json you can add them in the data/list.json file. These will be loaded by default on page load.
+Code scaffolding
+Run ng generate component component-name to generate a new component. You can also use ng generate directive|pipe|service|class|guard|interface|enum|module.
+
+Build
+Run ng build to build the project. The build artifacts will be stored in the dist/ directory. Use the --prod flag for a production build.
+
+Running unit tests
+Run ng test to execute the unit tests via Karma.
+
+Running end-to-end tests
+Run ng e2e to execute the end-to-end tests via Protractor.
+
+Further help
+To get more help on the Angular CLI use ng help or go check out the Angular CLI README.
